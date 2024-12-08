@@ -736,6 +736,10 @@ video {
     grid-column: span 2 / span 2;
   }
 
+  .lg\:grid {
+    display: grid;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
